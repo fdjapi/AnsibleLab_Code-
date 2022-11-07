@@ -5,12 +5,12 @@ variable "aws_ami_id" {
 }
 
 variable "ssh_key_pair" {
-  default = "C:/Users/LAB50/Desktop/LINUX.pem"
+  default = file("LINUX.pem")
   #default = "~/.ssh/id_rsa_ansilble_lab"
 }
 
 variable "ssh_key_pair_pub" {
-  default = "C:/Users/LAB50/Desktop/LINUX.pub"
+  default = file("LINUX.pub")
   #default = "~/.ssh/id_rsa_ansilble_lab.pub"
 }
 
