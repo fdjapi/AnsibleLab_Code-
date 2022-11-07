@@ -2,7 +2,7 @@ provider "aws" {
   region = "us-east-1"
   ## if you want to mention the aws credential from different path, enable below line
   #shared_credentials_file = "$HOME/.aws/credentials"
-  profile = "default"
+  #profile = "default"
   #version                 = ">=2.0"
 }
 
